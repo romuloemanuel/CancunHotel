@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CancunHotel.Domain\CancunHotel.Domain.csproj" />
+    <ProjectReference Include="..\CancunHotel.Infra.Data\CancunHotel.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
