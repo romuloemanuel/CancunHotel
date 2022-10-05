@@ -15,17 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{DFC75351
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7A303257-7EC7-4F66-A7A3-4117470D4787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancunHotel.Application", "CancunHotel.Application\CancunHotel.Application.csproj", "{E75A7F41-AA8E-45DA-A823-27501B3DB3F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Application", "CancunHotel.Application\CancunHotel.Application.csproj", "{E75A7F41-AA8E-45DA-A823-27501B3DB3F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancunHotel.Domain", "CancunHotel.Domain\CancunHotel.Domain.csproj", "{2C1EE21C-2FE0-4648-8F9D-EBD40700A69F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Domain", "CancunHotel.Domain\CancunHotel.Domain.csproj", "{2C1EE21C-2FE0-4648-8F9D-EBD40700A69F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancunHotel.Infra.Data", "CancunHotel.Infra.Data\CancunHotel.Infra.Data.csproj", "{A013F674-0F57-4F7D-AE00-1020DE2EA315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Infra.Data", "CancunHotel.Infra.Data\CancunHotel.Infra.Data.csproj", "{A013F674-0F57-4F7D-AE00-1020DE2EA315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancunHotel.Infra.IoC", "CancunHotel.Infra.IoC\CancunHotel.Infra.IoC.csproj", "{EB224F4A-FBB3-4F24-8EC6-E978483AE2E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Infra.IoC", "CancunHotel.Infra.IoC\CancunHotel.Infra.IoC.csproj", "{EB224F4A-FBB3-4F24-8EC6-E978483AE2E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancunHotel.Services", "CancunHotel.Services\CancunHotel.Services.csproj", "{33E22B27-1877-4E3B-BEE8-E71C913E514F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancunHotel.Services.Api", "CancunHotel.Services.Api\CancunHotel.Services.Api.csproj", "{99B6147F-4892-4DD7-A236-BA7623D2E18E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Services.Api", "CancunHotel.Services.Api\CancunHotel.Services.Api.csproj", "{99B6147F-4892-4DD7-A236-BA7623D2E18E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +47,6 @@ Global
 		{EB224F4A-FBB3-4F24-8EC6-E978483AE2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB224F4A-FBB3-4F24-8EC6-E978483AE2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB224F4A-FBB3-4F24-8EC6-E978483AE2E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33E22B27-1877-4E3B-BEE8-E71C913E514F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33E22B27-1877-4E3B-BEE8-E71C913E514F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33E22B27-1877-4E3B-BEE8-E71C913E514F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33E22B27-1877-4E3B-BEE8-E71C913E514F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99B6147F-4892-4DD7-A236-BA7623D2E18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99B6147F-4892-4DD7-A236-BA7623D2E18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99B6147F-4892-4DD7-A236-BA7623D2E18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -70,7 +64,6 @@ Global
 		{2C1EE21C-2FE0-4648-8F9D-EBD40700A69F} = {03ED577A-4385-40BA-9A51-7902E392EFEF}
 		{A013F674-0F57-4F7D-AE00-1020DE2EA315} = {DFC75351-B096-46D2-8160-E6AC239AF7EB}
 		{EB224F4A-FBB3-4F24-8EC6-E978483AE2E7} = {DFC75351-B096-46D2-8160-E6AC239AF7EB}
-		{33E22B27-1877-4E3B-BEE8-E71C913E514F} = {7A303257-7EC7-4F66-A7A3-4117470D4787}
 		{99B6147F-4892-4DD7-A236-BA7623D2E18E} = {7A303257-7EC7-4F66-A7A3-4117470D4787}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
